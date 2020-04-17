@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="348dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="20pt"
+        android:background="#0288D1"
+        android:text="Check out Page"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FD8E08"
+        android:text="Customer name: Aliyu Gabo        Address: 1, Thisway street, Somolia"
+        android:textAlignment="center"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:background="#E39898"
+        android:fontFamily="sans-serif"
+        android:padding="5dp"
+        android:paddingStart="5dp"
+        android:scrollHorizontally="true"
+        android:text="Items: Rice {Price: ₦500}  || Beans {Price: ₦600}  || Potato {Price: ₦200}  || Milk {Price: ₦330}  || Fruits {Price: ₦900} || Bread {Price: ₦300}  || Eggs {Price: ₦800}  || Towel {Price: ₦200}  || Chicken Curry {Price: ₦500}  || Apples {Price: ₦100}  || Sunscreen {Price: ₦200} || Toothpaste {Price: ₦300} || Smoked Fish {Price: ₦450}"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="19sp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="30dp"
+        android:background="#FFA000"
+        android:text="Total Price: ₦5380"
+        android:textAlignment="center"
+        android:textSize="18sp"
+        android:textStyle="bold|italic" />
+
+</LinearLayout>
